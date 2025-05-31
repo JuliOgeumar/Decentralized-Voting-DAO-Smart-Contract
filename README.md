@@ -12,22 +12,22 @@ This smart contract implements a complete DAO voting system where:
 
 ## Features
 
-### 🗳️ Proposal Management
+###  Proposal Management
 - **Create Proposals**: Token holders with minimum balance can submit proposals
 - **Time-bound Voting**: Configurable voting periods (default: ~10 days)
 - **Automatic Execution**: Successful proposals can be executed after voting ends
 - **Status Tracking**: Real-time proposal status monitoring
 
-### 🪙 Token-based Voting
+###  Token-based Voting
 - **Weighted Voting**: Vote power proportional to token balance
 - **One Vote Per Proposal**: Prevents double voting
 - **Balance Verification**: Ensures voters have sufficient tokens
 
-### 👥 Delegation System
+###  Delegation System
 - **Vote Delegation**: Token holders can delegate voting power
 - **Flexible Representation**: Change delegates at any time
 
-### 🔒 Security Features
+###  Security Features
 - **Owner Controls**: Contract owner can mint tokens (for testing)
 - **Access Control**: Proper authorization checks
 - **State Validation**: Comprehensive error handling
